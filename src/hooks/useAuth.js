@@ -1,0 +1,23 @@
+import { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
+
+const useAuth = ()=>{
+
+    const {user} = useSelector(state => state.auth)
+    const [ auth, setAuth ] = useState(false)
+    const [ loading, setLoading ] = useState(true)
+
+    useEffect( ()=>{
+
+        if(user) setAuth(true)
+        if(!user) setAuth(false)
+
+        setLoading(false)
+
+    },[ user ] )
+
+
+    return {auth, loading} 
+}
+
+export default useAuth

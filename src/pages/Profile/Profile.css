@@ -1,0 +1,156 @@
+.profile{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+.profile-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1em;
+    border-bottom: 1px solid #363636 ;
+}
+
+.profile-header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    
+    
+}
+
+.new-photo{
+    border-bottom: 1px solid #363636 ;
+    padding: 1em;
+}
+
+.loading{
+    margin: 0 auto;
+}
+
+.photos-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo{
+    width: 32%;
+    margin: 0.2em;
+}
+.photo img{
+    width: 100%;
+    height: 10em;
+}
+.actions{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+}
+
+.actions svg{
+    cursor: pointer;
+}
+.danger{
+    color: rgb(238, 102, 102);
+}
+.actions svg:hover{
+    color: #95c6e4;
+}
+
+
+
+.edit-photo{
+    margin-bottom: 1em;
+}
+
+.edit-photo img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+.edit-input{
+    height: 0.4em;
+    width: 90%;
+}
+
+#publish-foto{
+    width: 100%;
+    height: 100%;
+}
+.modal {
+    padding-top:5% ;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:1;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+  }
+.modal-container{
+    text-align: left;
+    background-color: rgb(248, 242, 242);
+    border: 1px solid black;
+    opacity: 1;
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+.modal-footer ul{
+    justify-content: right;
+    display: flex;
+}
+
+.btn-modal{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: .3em 1em;
+    margin-right: 1em;
+}
+.btn-modal:hover{
+    background-color: black;
+    color: white;
+}
+.danger:hover{
+    background-color: rgb(124, 20, 20);
+    color: white;
+}
+.modal-footer a{
+    color: black;
+    font-size: 1.3em;
+}
+.modal-body{
+    font-size: 1.2em;
+    color: black;
+    margin-left: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+.modal-header{
+    color: black;
+    display: flex;
+    justify-content:space-between;
+    margin: 1em 2em;
+    flex-direction: column;
+}
+.modal-header h2{
+    font-size: 1.7em;
+}
+.modal-header p{
+    margin: 1em 0;
+    padding: 0;
+    font-size: 1em;
+
+}
