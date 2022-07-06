@@ -2,7 +2,8 @@
 
 ## Warning
 
-Responsiveness for mobile devices has not yet been finalized, page is only ready for computer screens.[Click Here](https://emanuel-instaclone.herokuapp.com/) to check the page online.
+Responsiveness for mobile devices has not yet been finalized, page is only ready for computer screens.
+[Click Here](https://emanuel-instaclone.herokuapp.com/) to check the page online.
 
 ## About
 
